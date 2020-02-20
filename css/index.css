@@ -213,6 +213,11 @@ nav {
   width: 50%;
   justify-content: space-between;
 }
+@media (max-width:500px) {
+  nav {
+    width: 90%;
+  }
+}
 a {
   text-decoration: none;
   align-items: space-between;
